@@ -1,58 +1,61 @@
-                    /*reseteo los estilos de el navegador*/
-                    
-                    * {
-                        margin: 0%;
-                        padding: 0;
-                    }
-                    
-                    html {
-                        font-family: Arial, Helvetica, sans-serif;
-                        font-size: 18px;
-                    }
-                    
-                    .header {
-                        background: rgb(0, 85, 255);
-                        color: white;
-                        height: 80px;
-                        margin-bottom: 10px;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    
-                    .logo {
-                        text-transform: uppercase;
-                    }
-                    
-                    .logo a {
-                        color: white;
-                        text-decoration: none;
-                    }
-                    
-                    .navbar {
-                        background: rgb(13, 6, 177);
-                        color: white;
-                        width: 85vw;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    
-                    .navbar ul {
-                        list-style: none;
-                        text-align: center;
-                    }
-                    
-                    .navbar ul li {
-                        display: inline-block;
-                    }
-                    
-                    .navbar ul li a {
-                        text-decoration: none;
-                        display: block;
-                        padding: 15px;
-                        color: white;
-                    }
-                    
-                    .navbar ul li a:hover {
-                        background: white;
-                        color: rgb(13, 6, 117);
-                    }
+ /*reseteo los estilos de el navegador*/
+ 
+ * {
+     margin: 0%;
+     padding: 0;
+ }
+ 
+ html {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+ }
+ 
+ .header {
+     background: rgb(0, 85, 255);
+     color: white;
+     height: 80px;
+     margin-bottom: 10px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .logo {
+     text-transform: uppercase;
+ }
+ 
+ .logo a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .navbar {
+     background: rgb(13, 6, 177);
+     color: white;
+     width: 85vw;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .navbar ul {
+     list-style: none;
+     text-align: center;
+ }
+ 
+ .navbar ul li {
+     display: inline-block;
+ }
+ 
+ .navbar ul li a {
+     text-decoration: none;
+     display: block;
+     padding: 15px;
+     color: white;
+ }
+ 
+ .navbar ul li a:hover {
+     background: white;
+     color: rgb(13, 6, 117);
+ }
+ 
+ © 2022 GitHub,
+ Inc. Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
