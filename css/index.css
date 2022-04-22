@@ -57,5 +57,105 @@
      color: rgb(13, 6, 117);
  }
  
- © 2022 GitHub,
- Inc. Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
+ .banner-top {
+     padding: 20 px;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ #contenedor {
+     width: 50%;
+     margin: 0, auto;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .body {
+     background: tomato;
+ }
+ 
+ #contenedor img {
+     width: 100%;
+ }
+ 
+ .primero {
+     padding: 2%;
+ }
+ 
+ .primero {
+     heigh: 300px;
+     overflow: hidden;
+ }
+ 
+ .segundo {
+     padding: 2%;
+ }
+ 
+ .tercero {
+     padding: 2%;
+ }
+ 
+ .footer {
+     margin-top: 25px;
+     background: #fff;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .data {
+     background: rgb(255, 255, 255);
+     color: #000
+ }
+ 
+ .map {
+     margin-top: 10px;
+     color: #000
+ }
+ 
+ @media screen and (min-width: 660px) and (max-width: 989px) {
+     .body {
+         background: yellow;
+     }
+     .logo {
+         width: 100%;
+         text-align: center;
+     }
+     .banner-top {
+         display: none;
+     }
+     .primero {
+         width: 100%;
+     }
+     .primero figure {
+         height: 300px;
+         overflow: hidden;
+     }
+     .segundo {
+         width: 50%;
+     }
+     .tercero {
+         width: 50%;
+     }
+ }
+ 
+ @media screen and (min-width: 990px) and (max-width: 1900px) {
+     .body {
+         background: rgb(42, 170, 221);
+     }
+ }
+ /* X-Small devices (portrait phones, less than 576px) // No media query for `xs` since this is the default in Bootstrap*/
+ /* Small devices (landscape phones, 576px and up)*/
+ 
+ @media (min-width: 576px) {}
+ /* Medium devices (tablets, 768px and up)*/
+ 
+ @media (min-width: 768px) {}
+ /* Large devices (desktops, 992px and up)*/
+ 
+ @media (min-width: 992px) {}
+ /* X-Large devices (large desktops, 1200px and up)*/
+ 
+ @media (min-width: 1200px) {}
+ /* XX-Large devices (larger desktops, 1400px and up) */
+ 
+ @media (min-width: 1400px) {}
